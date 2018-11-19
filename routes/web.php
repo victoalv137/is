@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('inicio.Index');
+    return view('inicio.index');
 });
 Route::resource('inicio','InicioController');
 Route::resource('Empresas','EmpresasController');
