@@ -100,7 +100,7 @@
                     <th scope="row" style="width:10%" >{{ $cont }}</th>
                     <td style="width:25%">{{ $declaraciones->descripcion}}</td>
                     <td style="width:20%">{{ $declaraciones->created_at}}</td>
-                    <td style="width:20%">{{ $declaraciones->archivo}}</td>
+                    <td style="width:20%">{{ $declaraciones->titulo}}</td>
                     <td style="width:25%">
                     <a href="{{ url('Empresas/'.$empresa->id.'/declaracion/descargar/'.$declaraciones->id) }}" class="btn btn-success">Descargar</a>
                     </td>
