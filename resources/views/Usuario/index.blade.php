@@ -24,8 +24,7 @@
                     <th scope="row" style="width:15%" >{{ $cont }}</th>
                     <td style="width:40%">{{$usuario->name.' '.$usuario->Apellidos}}</td>
                     <td style="width:45%">                       
-                        <a href="{{ url('EmpresasR/usuario/'.$usuario->id.'/editar') }}" class="btn btn-info">Editar</a>
-                        <button type="button" class="btn btn-danger">Eliminar</button>
+                        <a href="{{ url('EmpresasR/usuario/'.$usuario->id.'/editar') }}" class="btn btn-info">Editar</a>                        
                     </td >      
                 </tr>
                 @php
