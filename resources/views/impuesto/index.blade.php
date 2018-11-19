@@ -1,4 +1,4 @@
-@extends('layouts.app4')
+@extends('Layouts.app4')
 @section('contenido')   
 <h1>Impuestos de la  Empresa : {{ $empresa->RazonSocial}} </h1><br>
 @if(Auth::user()->tipo!='E')                

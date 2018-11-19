@@ -1,4 +1,4 @@
- @extends('layouts.app2')
+ @extends('Layouts.app2')
 @section('contenido')
 @if(session('success'))
 <div class="alert alert-success">

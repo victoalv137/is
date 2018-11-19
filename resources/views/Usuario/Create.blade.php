@@ -1,4 +1,4 @@
-@extends('layouts.app3')
+@extends('Layouts.app3')
 @section('contenido')   
 <h2>Registrar Usuario</h2>
 <div class="container">

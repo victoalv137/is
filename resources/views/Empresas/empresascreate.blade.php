@@ -1,4 +1,4 @@
-@extends('layouts.app3')
+@extends('Layouts.app3')
 @section('contenido')   
 <h1>Registrar Empresa</h1><br>
 <div class="container">

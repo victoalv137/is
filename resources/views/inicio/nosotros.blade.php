@@ -1,4 +1,4 @@
- @extends('layouts.app2')
+ @extends('Layouts.app2')
 @section('contenido')
 
  <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
